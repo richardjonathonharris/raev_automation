@@ -1,0 +1,27 @@
+[
+    {
+        "name": "AT-ST",
+        "faction": "imperial",
+        "unique": "False",
+        "color": "red",
+        "type": ["Vehicle", "Heavy Weapon"],
+        "cost": 14,
+        "group_number": 1,
+        "redeployable": "False",
+        "redeploy_cost": null,
+        "health": 15,
+        "speed": 4,
+        "defense": ["black", "black"],
+        "attack": ["blue", "red", "red"],
+        "non-surge-abilities": [
+            "Massive", 
+            "+3 Accuracy",
+            {"Targeting Computer": "While attacking, you may reroll 1 attack die"},
+            {"Awkward": "You cannot attack adjacent figures"}
+        ],
+        "surge-abilities": [
+            {"1": "Blast 2"},
+            {"1": "Pierce 2"}
+        ]
+    }
+]
