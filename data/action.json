@@ -1,10 +1,226 @@
 [
     {
-        "blitz": "True",
+        "blitz": true,
         "actions": {
             "1": "Engage: Engage the Priority Target. If the Priority Target is not in range after this action, then Engage the Priority Target again.",
             "2": "Attack: Attack or Interact with the Priority Target. If the Priority Target is not in range, then Attack the closest figure with the least remaining health.",
             "3": "Ability: Use an Ability against the Priority Target. If the Priority Target is not in range, then use an ability against the closest figure with the least remaining health."},
         "other_text": "The Emperor gains influence equal to the threat level."
+    },
+    {
+        "blitz": false,
+        "actions": {
+            "1": "Engage",
+            "2": "Attack", 
+            "3": "Ability"
+            },
+        "colors": ["blue", "red", "yellow"]
+    },
+    {
+        "blitz": false,
+        "actions": {
+            "1": "Engage",
+            "2": "Ability",
+            "3": "Attack"
+            },
+        "colors": ["blue", "red", "green"]
+    },
+    {
+        "blitz": false,
+        "actions": {
+            "1": "Attack",
+            "2": "Engage",
+            "3": "Ability"
+            },
+        "colors": ["blue", "yellow", "red"]
+    },
+    {
+        "blitz": false,
+        "actions": {
+            "1": "Attack",
+            "2": "Ability",
+            "3": "Engage"
+            },
+        "colors": ["blue", "yellow", "green"]
+    },
+    {
+        "blitz": false,
+        "actions": {
+            "1": "Ability",
+            "2": "Engage",
+            "3": "Attack"
+            },
+        "colors": ["blue", "green", "red"]
+    },
+    {
+        "blitz": false,
+        "actions": {
+            "1": "Ability",
+            "2": "Attack",
+            "3": "Engage"
+            },
+        "colors": ["blue", "green", "yellow"]
+    },
+    {
+        "blitz": false,
+        "actions": {
+            "1": "Attack", 
+            "2": "Engage",
+            "3": "Ability"
+            },
+        "colors": ["yellow", "red", "blue"]
+    },
+    {
+        "blitz": false,
+        "actions": {
+            "1": "Attack",
+            "2": "Ability",
+            "3": "Engage"
+            },
+        "colors": ["yellow", "red", "green"]
+    },
+    {
+        "blitz": false,
+        "actions": {
+            "1": "Ability",
+            "2": "Engage",
+            "3": "Attack"
+            },
+        "colors": ["yellow", "blue", "red"]
+    },
+    {
+        "blitz": false,
+        "actions": {
+            "1": "Ability",
+            "2": "Attack",
+            "3": "Engage"
+            },
+        "colors": ["yellow", "blue", "green"]
+    },
+    {
+        "blitz": false,
+        "actions": {
+            "1": "Engage",
+            "2": "Attack",
+            "3": "Ability"
+            },
+        "colors": ["yellow", "green", "red"]
+    },
+    {
+        "blitz": false,
+        "actions": {
+            "1": "Engage",
+            "2": "Ability",
+            "3": "Attack"
+            },
+        "colors": ["yellow", "green", "blue"]
+    },
+    {
+        "blitz": false,
+        "actions": {
+            "1": "Ability",
+            "2": "Attack",
+            "3": "Engage"
+            },
+        "colors": ["green", "red", "blue"]
+    },
+    {
+        "blitz": false,
+        "actions": {
+            "1": "Engage",
+            "2": "Attack", 
+            "3": "Ability"
+            },
+        "colors": ["green", "red", "yellow"]
+    },
+    {
+        "blitz": false,
+        "actions": {
+            "1": "Engage",
+            "2": "Ability",
+            "3": "Attack"
+            },
+        "colors": ["green", "blue", "red"]
+    },
+    {
+        "blitz": false,
+        "actions": {
+            "1": "Attack",
+            "2": "Engage",
+            "3": "Ability"
+            },
+        "colors": ["green", "blue", "yellow"]
+    },
+    {
+        "blitz": false,
+        "actions": {
+            "1": "Attack",
+            "2": "Ability",
+            "3": "Engage"
+            },
+        "colors": ["green", "yellow", "red"]
+    },
+    {
+        "blitz": false,
+        "actions": {
+            "1": "Ability",
+            "2": "Engage",
+            "3": "Attack"
+            },
+        "colors": ["green", "yellow", "blue"]
+    },
+    {
+        "blitz": false,
+        "actions": {
+            "1": "Ability",
+            "2": "Engage",
+            "3": "Attack"
+            },
+        "colors": ["red", "blue", "yellow"]
+    },
+    {
+        "blitz": false,
+        "actions": {
+            "1": "Ability",
+            "2": "Attack",
+            "3": "Engage"
+            },
+        "colors": ["red", "blue", "green"]
+    },
+    {
+        "blitz": false,
+        "actions": {
+            "1": "Engage",
+            "2": "Attack",
+            "3": "Ability"
+            },
+        "colors": ["red", "yellow", "blue"]
+    },
+    {
+        "blitz": false,
+        "actions": {
+            "1": "Engage",
+            "2": "Ability",
+            "3": "Attack"
+            },
+        "colors": ["red", "yellow", "green"]
+    },
+    {
+        "blitz": false,
+        "actions": {
+            "1": "Attack",
+            "2": "Engage",
+            "3": "Ability"
+            },
+        "colors": ["red", "green", "blue"]
+    },
+    {
+        "blitz": false,
+        "actions": {
+            "1": "Attack",
+            "2": "Ability",
+            "3": "Engage"
+            },
+        "colors": ["red", "green", "yellow"]
     }
 ]
