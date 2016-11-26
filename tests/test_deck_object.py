@@ -3,6 +3,22 @@ import unittest
 import json
 from manager.deck import Deck
 
+class TestDeployDeckConstruction(unittest.TestCase):
+
+    def setUp(self):
+        self.primary_deck = self._create_starting_deck()
+
+    def _create_starting_deck(self):
+        with open('data/deployment.json') as read_file:
+            cards = json.load(read_file)
+        return Deck('deploy', cards, 'deploy')
+
+    def test_length_starting_deck(self):
+        print len(self.primary_deck.starting_deck)
+        for card in self.primary_deck.starting_deck:
+            print card
+        assert len(self.primary_deck.starting_deck) == 8
+
 class TestAEDeckConstruction(unittest.TestCase):
 
     def setUp(self):

@@ -2,26 +2,226 @@
     {
         "name": "AT-ST",
         "faction": "imperial",
-        "unique": "False",
         "color": "red",
-        "type": ["Vehicle", "Heavy Weapon"],
+        "unique": false,
         "cost": 14,
-        "group_number": 1,
-        "redeployable": "False",
-        "redeploy_cost": null,
-        "health": 15,
-        "speed": 4,
-        "defense": ["black", "black"],
-        "attack": ["blue", "red", "red"],
-        "non-surge-abilities": [
-            "Massive", 
-            "+3 Accuracy",
-            {"Targeting Computer": "While attacking, you may reroll 1 attack die"},
-            {"Awkward": "You cannot attack adjacent figures"}
-        ],
-        "surge-abilities": [
-            {"1": "Blast 2"},
-            {"1": "Pierce 2"}
-        ]
+        "redeployable": false,
+        "redeploy_cost": null
+    },
+        {
+        "name": "Darth Vader",
+        "faction": "imperial",
+        "color": "red",
+        "unique": true,
+        "cost": 18,
+        "redeployable": false,
+        "redeploy_cost": null
+    },
+     {
+        "name": "E-Web Engineer",
+        "faction": "imperial",
+        "color": "red",
+        "unique": false,
+        "cost": 8,
+        "redeployable": false,
+        "redeploy_cost": null
+    },     
+    {
+        "name": "E-Web Engineer",
+        "faction": "imperial",
+        "color": "gray",
+        "unique": false,
+        "cost": 6,
+        "redeployable": false, 
+        "redeploy_cost": null
+    },
+    {
+        "name": "General Sorin",
+        "faction": "imperial",
+        "color": "red",
+        "unique": true,
+        "cost": 8, 
+        "redeployable": false, 
+        "redeploy_cost": null
+    },
+    {
+        "name": "General Weiss",
+        "faction": "imperial",
+        "color": "red",
+        "unique": true,
+        "cost": 16,
+        "redeployable": false, 
+        "redeploy_cost": null
+    },
+    {
+        "name": "Heavy Stormtrooper",
+        "faction": "imperial",
+        "color": "red",
+        "unique": false,
+        "cost": 8,
+        "redeployable": true, 
+        "redeploy_cost": 4
+    },
+    {
+        "name": "Imperial Officer",
+        "faction": "imperial",
+        "color": "red",
+        "unique": false,
+        "cost": 5,
+        "redeployable": false, 
+        "redeploy_cost": null
+    },
+    {
+        "name": "Imperial Officer",
+        "faction": "imperial",  
+        "color": "gray",
+        "unique": false,
+        "cost": 2,
+        "redeployable": false, 
+        "redeploy_cost": null
+    },
+    {
+        "name": "Kayn Somos",
+        "faction": "imperial",  
+        "color": "red",
+        "unique": true,
+        "cost": 10,
+        "redeployable": false,
+        "redeploy_cost": null
+    },
+    {
+        "name": "Probe Droid",
+        "faction": "imperial",  
+        "color": "red",
+        "unique": false,
+        "cost": 5,
+        "redeployable": false, 
+        "redeploy_cost": null
+    },
+    {
+        "name": "Probe Droid",
+        "faction": "imperial",  
+        "color": "gray",
+        "unique": false,
+        "cost": 3,
+        "redeployable": false,
+        "redeploy_cost": null
+    },
+    {
+        "name": "SC2-M Repulsor Tank",
+        "faction": "imperial",  
+        "color": "red",
+        "unique": false,
+        "cost": 10,
+        "redeployable": false,
+        "redeploy_cost": null
+    },
+    {
+        "name": "Snowtrooper",
+        "faction": "imperial",  
+        "color": "gray",
+        "unique": false,
+        "cost": 7,
+        "redeployable": true,
+        "redeploy_cost": 2
+    },
+    {
+        "name": "Snowtrooper",
+        "faction": "imperial",  
+        "color": "red",
+        "unique": false,
+        "cost": 10,
+        "redeployable": true,
+        "redeploy_cost": 3
+    },
+    {
+        "name": "Stormtrooper",
+        "faction": "imperial",  
+        "color": "red",
+        "unique": false,
+        "cost": 9,
+        "redeployable": true,
+        "redeploy_cost": 3
+    },
+    {
+        "name": "Stormtrooper",
+        "faction": "imperial",  
+        "color": "gray",
+        "unique": false,
+        "cost": 6,
+        "redeployable": true,
+        "redeploy_cost": 2
+    },
+    {
+        "name": "Royal Guard",
+        "faction": "imperial",  
+        "color": "red",
+        "unique": false,
+        "cost": 12,
+        "redeployable": true, 
+        "redeploy_cost": 6
+    },
+    {
+        "name": "Royal Guard",
+        "faction": "imperial",  
+        "color": "gray",
+        "unique": false,
+        "cost": 8,
+        "redeployable": true,
+        "redeploy_cost": 4
+    },
+    {
+        "name": "Royal Guard Champion",
+        "faction": "imperial",  
+        "color": "red",
+        "unique": true,
+        "cost": 15,
+        "redeployable": false,
+        "redeploy_cost": null
+    },
+    {
+        "name": "The Grand Inquisitor",
+        "faction": "imperial",  
+        "color": "red",
+        "unique": true,
+        "cost": 9,
+        "redeployable": false,
+        "redeploy_cost": null
+    },
+    {
+        "name": "Heavy Stormtrooper", 
+        "faction": "imperial",  
+        "color": "gray",
+        "unique": false,
+        "cost": 6,
+        "redeployable": true,
+        "redeploy_cost": 3
+    },
+    {
+        "name": "Agent Blaise",
+        "faction": "imperial",  
+        "color": "red",
+        "unique": true,
+        "cost": 6,
+        "redeployable": false,
+        "redeploy_cost": null
+    },
+    {
+        "name": "ISB Infiltrator",
+        "faction": "imperial",  
+        "color": "gray",
+        "unique": false,
+        "cost": 5,
+        "redeployable": true,
+        "redeploy_cost": 3
+    },
+    {
+        "name": "ISB Infiltrator",
+        "faction": "imperial",  
+        "color": "red",
+        "unique": false,
+        "cost": 7,
+        "redeployable": true,
+        "redeploy_cost": 4
     }
 ]

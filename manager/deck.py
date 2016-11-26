@@ -11,6 +11,9 @@ class Deck(object):
 
     def _populate_deck(self, cards):
         return [card for card in cards]
+
+    def _shuffle(self, cards):
+        return random.sample(cards, len(cards))
     
     def _create_starting_deck(self, type):
         if type == 'ae':
@@ -19,13 +22,17 @@ class Deck(object):
             blitz_cards = [card for card in self.full_deck if card['blitz'] is True] * number_of_blitz_total
             non_blitz_cards = [card for card in self.full_deck if card['blitz'] is not True]
             ready_deck = non_blitz_cards + random.sample(blitz_cards, len(blitz_cards))[0:number_to_choose]
-            return random.sample(ready_deck, len(ready_deck))
+            return self._shuffle(ready_deck)
+        elif type == 'deploy':
+            non_unique_deploys = [card for card in self.full_deck if card['unique'] is False] 
+            cost_6_cards = [card for card in non_unique_deploys if card['cost'] <= 6]
+            return self._shuffle(cost_6_cards)
         else:
             return ValueError('Please select correct type of deck')
 
     def deal_card(self):
         if len(self.current_deck) == 0:
-            self.current_deck = random.sample(self.discard, len(self.discard))
+            self.current_deck = self._shuffle(self.discard)
             self.discard = []
         else:
             pass
@@ -39,4 +46,4 @@ class Deck(object):
             self.new_deck.append([card for card in self.discard])
             self.discard = []
         new_deck.append(new_card)
-        self.current_deck = random.sample(new_deck, len(new_deck))
+        self.current_deck = self._shuffle(new_deck)
