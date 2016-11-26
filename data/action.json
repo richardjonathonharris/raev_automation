@@ -1,0 +1,10 @@
+[
+    {
+        "blitz": "True",
+        "actions": {
+            "1": "Engage: Engage the Priority Target. If the Priority Target is not in range after this action, then Engage the Priority Target again.",
+            "2": "Attack: Attack or Interact with the Priority Target. If the Priority Target is not in range, then Attack the closest figure with the least remaining health.",
+            "3": "Ability: Use an Ability against the Priority Target. If the Priority Target is not in range, then use an ability against the closest figure with the least remaining health."},
+        "other_text": "The Emperor gains influence equal to the threat level."
+    }
+]
