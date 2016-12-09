@@ -39,8 +39,7 @@ class TestImperialClassDeckConstruction(unittest.TestCase):
 
     def test_full_deck_contains_only_chosen_class(self):
         for card in self.primary_deck.full_deck:
-            print card
-        assert False
+            assert card['class'] == self.primary_deck.starting_deck[0]['class']
 
 class TestAEDeckConstruction(unittest.TestCase):
 

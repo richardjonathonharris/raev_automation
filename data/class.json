@@ -4,5 +4,41 @@
         "class": "Armored Onslaught",
         "cost": 0,
         "text": "Exhaust this card when an Imperial figure declares a ranged attack. You may replace 1 die in the attack pool with 1 red die and the attack gains Blast 1"
+    },
+    {
+        "name": "In the Shadows",
+        "class": "Imperial Black Ops",
+        "cost": 0,
+        "text": "Exhaust this card at the start of an activation and choose an Imperial figure. That figure becomes hidden."
+    },
+    {
+        "name": "Field Officer",
+        "class": "Inspiring Leadership",
+        "cost": 0,
+        "text": "Attachment - Guardian, Leader, or Trooper Only. Exhaust this card, you gain: => Order: Choose a friendly figure within 2 spaces. That figure may interrupt to perform a move."
+    },
+    {
+        "name": "Show of Force",
+        "class": "Military Might",
+        "cost": 0,
+        "text": "Exhaust this card when an Imperial Figure declares an attack. That figure becomes Focused."
+    },
+    {
+        "name": "Strike Force",
+        "class": "Precision Training",
+        "cost": 0,
+        "text": "Attachment - While attacking, you may reroll 1 attack die."
+    },
+    {
+        "name": "Prey Upon Doubt",
+        "class": "Subversive Tactics",
+        "cost": 0,
+        "text": "Exhaust this card when a Rebel figure declares an attack. The Rebel figure chooses to either suffer 1 strain or apply +1 surge cancel to the defense results."
+    },
+    {
+        "name": "Experimental Arms",
+        "class": "Technological Superiority",
+        "cost": 0,
+        "text": "Attachment - While attacking you may apply +1 Surge to the attack results. Then, after the attack is resolved, you suffer 1 damage."
     }
 ]
