@@ -27,6 +27,11 @@ class Deck(object):
             non_unique_deploys = [card for card in self.full_deck if card['unique'] is False] 
             cost_6_cards = [card for card in non_unique_deploys if card['cost'] <= 6]
             return self._shuffle(cost_6_cards)
+        elif type == 'class':
+            zero_cost_cards = [card for card in self.full_deck if card['cost'] == 0]
+            cards = self._shuffle(zero_cost_cards)
+            self.full_deck = [card for card in self.full_deck if card['class'] == cards[0]['class']]
+            return [cards[0]]
         else:
             return ValueError('Please select correct type of deck')
 

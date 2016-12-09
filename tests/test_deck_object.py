@@ -14,10 +14,33 @@ class TestDeployDeckConstruction(unittest.TestCase):
         return Deck('deploy', cards, 'deploy')
 
     def test_length_starting_deck(self):
-        print len(self.primary_deck.starting_deck)
+        assert len(self.primary_deck.starting_deck) == 17
+
+    def test_deck_contains_6_str_under(self):
         for card in self.primary_deck.starting_deck:
+            assert card['cost'] <= 6
+
+    def test_deck_does_not_contain_unique(self):
+        for card in self.primary_deck.starting_deck:
+            assert card['unique'] is False
+
+class TestImperialClassDeckConstruction(unittest.TestCase):
+    
+    def setUp(self):
+        self.primary_deck = self._create_starting_deck()
+
+    def _create_starting_deck(self):
+        with open ('data/class.json') as read_file:
+            cards = json.load(read_file)
+        return Deck('class', cards, 'class')
+
+    def test_length_starting_deck(self):
+        assert len(self.primary_deck.starting_deck) == 1
+
+    def test_full_deck_contains_only_chosen_class(self):
+        for card in self.primary_deck.full_deck:
             print card
-        assert len(self.primary_deck.starting_deck) == 8
+        assert False
 
 class TestAEDeckConstruction(unittest.TestCase):
 
