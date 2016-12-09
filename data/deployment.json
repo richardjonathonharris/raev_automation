@@ -216,12 +216,202 @@
         "redeploy_cost": 3
     },
     {
-        "name": "ISB Infiltrator",
-        "faction": "imperial",  
+        "name": "Bossk",
+        "faction": "scum",  
+        "color": "red",
+        "unique": true,
+        "cost": 8,
+        "redeployable": false,
+        "redeploy_cost": null
+    },
+    {
+        "name": "Ugnaught Tinkerer",
+        "faction": "scum",  
+        "color": "gray",
+        "unique": false,
+        "cost": 3,
+        "redeployable": false,
+        "redeploy_cost": null
+    },
+    {
+        "name": "Ugnaught Tinkerer",
+        "faction": "scum",  
+        "color": "red",
+        "unique": false,
+        "cost": 5,
+        "redeployable": false,
+        "redeploy_cost": null
+    },
+    {
+        "name": "Wing Guard",
+        "faction": "scum",  
+        "color": "gray",
+        "unique": false,
+        "cost": 6,
+        "redeployable": true,
+        "redeploy_cost": 2
+    },
+    {
+        "name": "Wing Guard ",
+        "faction": "scum",  
+        "color": "red",
+        "unique": false,
+        "cost": 9,
+        "redeployable": true,
+        "redeploy_cost": 3
+    },
+    {
+        "name": "Greedo",
+        "faction": "scum",  
+        "color": "red",
+        "unique": true,
+        "cost": 4,
+        "redeployable": false,
+        "redeploy_cost": null
+    },
+    {
+        "name": "Bantha Rider",
+        "faction": "scum",  
+        "color": "red",
+        "unique": false,
+        "cost": 9,
+        "redeployable": false, 
+        "redeploy_cost": null
+    },
+    {
+        "name": "Boba Fett",
+        "faction": "scum",  
+        "color": "red",
+        "unique": true,
+        "cost": 13,
+        "redeployable": false,
+        "redeploy_cost": null
+    },
+    {
+        "name": "Dengar",
+        "faction": "scum",  
+        "color": "red",
+        "unique": true,
+        "cost": 7,
+        "redeployable": false,
+        "redeploy_cost": null
+    },
+    {
+        "name": "IG-88",
+        "faction": "scum",  
+        "color": "red",
+        "unique": true,
+        "cost": 12,
+        "redeployable": false,
+        "redeploy_cost": null
+    },
+    {
+        "name": "Hired Gu",
+        "faction": "scum",  
+        "color": "gray",
+        "unique": false,
+        "cost": 4,
+        "redeployable": true,
+        "redeploy_cost": 2
+    },
+    {
+        "name": "Hired Gun",
+        "faction": "scum",  
+        "color": "red",
+        "unique": false,
+        "cost": 6,
+        "redeployable": true,
+        "redeploy_cost": 3
+    },
+    {
+        "name": "HK Assassin Droid",
+        "faction": "scum",  
+        "color": "gray",
+        "unique": false,
+        "cost": 8,
+        "redeployable": true,
+        "redeploy_cost": 4
+    },
+    {
+        "name": "HK Assassin Droid",
+        "faction": "scum",  
+        "color": "red",
+        "unique": false,
+        "cost": 11,
+        "redeployable": true,
+        "redeploy_cost": 6
+    },
+    {
+        "name": "Nexu",
+        "faction": "scum",  
+        "color": "red",
+        "unique": false,
+        "cost": 6,
+        "redeployable": false,
+        "redeploy_cost": null
+    },
+    {
+        "name": "Nexu",
+        "faction": "scum",  
+        "color": "gray",
+        "unique": false,
+        "cost": 4,
+        "redeployable": false,
+        "redeploy_cost": null
+    },
+    {
+        "name": "Trandoshan Hunter",
+        "faction": "scum",  
+        "color": "red",
+        "unique": false,
+        "cost": 10,
+        "redeployable": true,
+        "redeploy_cost": 5
+    },
+    {
+        "name": "Trandoshan Hunter",
+        "faction": "scum",  
+        "color": "gray",
+        "unique": false,
+        "cost": 7,
+        "redeployable": true,
+        "redeploy_cost": 3
+    },
+    {
+        "name": "Tusken Raider",
+        "faction": "scum",  
         "color": "red",
         "unique": false,
         "cost": 7,
         "redeployable": true,
-        "redeploy_cost": 4
+        "redeploy_cost": 3
+    },
+    {
+        "name": "Tusken Raider",
+        "faction": "scum",  
+        "color": "gray",
+        "unique": false,
+        "cost": 5,
+        "redeployable": true,
+        "redeploy_cost": 2
+    },
+    {
+        "name": "Wampa",
+        "faction": "scum",  
+        "color": "red",
+        "unique": false,
+        "cost": 8,
+        "redeployable": false,
+        "redeploy_cost": null
+    },
+    {
+        "name": "Wampa",
+        "faction": "scum",  
+        "color": "gray",
+        "unique": false,
+        "cost": 5,
+        "redeployable": false,
+        "redeploy_cost": null
     }
 ]
+
